@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #0f172a;
+}
+
+.dark{
+  --bg: #0b1220;
+  --card: #061122;
+  --text: #e6eef8;
+}
+
+html, body, #root{
+  height:100%;
+}
+
+body{
+  background:var(--bg);
+  color:var(--text);
+}
+
